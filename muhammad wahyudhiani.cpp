@@ -93,7 +93,11 @@ double Ra1c[5]={ (a1c[0]/mc[0]),(a1c[1]/mc[1]),(a1c[2]/mc[2]),(a1c[3]/mc[3]),(a1
 			r++;
 		}while(r<5);cout << endl;
 		
-			
+			cout << endl << endl;
+	cout << "NILAI AKHIR:   " << endl;
+	cout <<"Nilai A1   :   "<<ha[0] << endl;
+	cout <<"Nilai A2   :   "<<ha[1] << endl;
+	cout <<"Nilai A3   :   "<<ha[2] << endl;
 		
 }	
 
