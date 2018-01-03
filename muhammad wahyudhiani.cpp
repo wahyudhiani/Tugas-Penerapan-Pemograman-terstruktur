@@ -49,7 +49,25 @@ double Ra1c[5]={ (a1c[0]/mc[0]),(a1c[1]/mc[1]),(a1c[2]/mc[2]),(a1c[3]/mc[3]),(a1
 		k++;
 		}while(k<5);cout << endl;
 		
-	
+	cout << endl<<endl;
+		cout << "MATRIKS R :"<<endl;
+	int l=0;
+	do{
+		cout<<Ra1c[l] << " | ";
+		l++;
+		}while(l<5);cout<< endl;
+	int m=0;
+	do{
+		cout<<Ra2c[m]<< " | ";
+		m++;
+		}while(m<5);cout<< endl;
+	int n=0;
+	do{
+		cout<<Ra3c[n]<< " | ";
+		n++;
+		}while(n<5);cout<< endl;
+		
+		
 		
 }	
 
